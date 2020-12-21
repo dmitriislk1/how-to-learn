@@ -31,7 +31,7 @@
   width: 183px;
   height: 32px;
 }
-.logo_plase_header{
+.logo_plaсe_header{
   top:30px;
   left:64px;
 }
@@ -119,17 +119,15 @@
   min-width: 784px;
 }
 .two-columns__paragraph{
-  margin: 0px;
-  padding: 0px;
+  margin: 0 0 30px 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.two-columns__paragraph:first-child{
-  margin-bottom: 30px;
-}
+
 .two-columns__paragraph:last-child{
-  margin-top: 30px;
+  margin-bottom: 0;
 }
 .two-columns__span-accent{
   font-weight: 700;
