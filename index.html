@@ -4,24 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./pages/content.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <div class="page">
     <header class="header">
       <div class="logo logo_plaсe_header"></div>
-      <h1 class="header__title flex-row">Научиться учиться</h1>
+      <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
       </p>
       <img src="./images/header-image.png" alt="Упс, что-то пошло не так:(" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
         <article class="two-columns">
-          <h2 class="two-columns__brief"><a href="#" class="two-columns__link" >Главные проблемы в обучении</a></h2>
+          <h2 class="two-columns__brief"><a href="#" class="two-columns__link">Главные проблемы в обучении</a></h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
                Мы готовимся к экзаменам и учим билеты.
@@ -33,6 +33,79 @@
                сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </article>
+      </section>
+
+
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png" class="cards__image" alt="Упс, что-то пошло не так:(">
+            <h4 class="cards__title">Два вида внимания</h4>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-recall.png" class="cards__image" alt="Упс, что-то пошло не так:(">
+            <h4 class="cards__title">Recall</h4>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-interliving.png" class="cards__image" alt="Упс, что-то пошло не так:(">
+            <h4 class="cards__title">Интерливинг</h4>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-question.png" class="cards__image" alt="Упс, что-то пошло не так:(">
+            <h4 class="cards__title">Вопросы</h4>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+            </p>
+          </li>
+
+          <li class="cards__item">
+            <img src="./images/cards-competence.png" class="cards__image" alt="Упс, что-то пошло не так:(">
+            <h4 class="cards__title">Иллюзия компетентности</h4>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <div class="video__iframes">
+          <iframe id="ytplayer" type="text/html" width="515" height="316"
+                  src="https://www.youtube.com/embed/arj7oStGLkU"
+                  frameborder="0" allowfullscreen class="video__iframe"></iframe>
+          <iframe id="ytplayer" type="text/html" width="515" height="316"
+                  src="https://www.youtube.com/embed/5MgBikgcWnY"
+                  frameborder="0" allowfullscreen class="video__iframe"></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <article class="two-columns">
+          <h2 class="two-columns__brief"><a href="#" class="two-columns__link" >История Барбары Оакли.</a></h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">С детства Барбаре не давалась математика.
+               Она считала себя законченным гуманитарием, причём далеко не самым умным.
+                В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры.
+                 Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам.
+                  Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже,
+                   чем у тех, кому всё ясно с первого взгляда.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <img src="./images/feynman.png" alt="Упс, что-то пошло не так:(" class="feynman__images">
       </section>
 
       <section class="digits">
@@ -85,15 +158,26 @@
         </ul>
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
-        <img src="./images/feynman.png" alt="Упс, что-то пошло не так:(" class="feynman__images">
+      <section class="khan">
+        <article class="khan__container">
+          <h4 class="khan__author">Салман Хан</h4>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+             Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так
+              учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <h5  class="khan__quote-author">Джордж Лукас</h5>
+          <h6 class="khan__quote-author-subline">Кинорежиссер, продюсер</h6>
+          <div class="khan__book-container">
+            <!--<div class="khan__book-pic"></div>-->
+            <img src="images/khan-book.jpg" alt="Упс, что-то пошло не так:(" class="khan__book-pic">
+            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+          </div>
+
+        </article>
       </section>
 
       <section class="kaufman">
-        <img src="./images/kaufman-triangle.svg" alt="Упс, что-то пошло не так:(" class="kaufman__triangle">
+        <img src="./images/kaufman-triangle.svg" alt="Упс, что-то пошло не так:(" class="kaufman__triangle rotation">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <ul class="table">
@@ -147,10 +231,21 @@
             <h4 class="table__heading table__heading_theme_dark">10</h4>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
-
-
         </ul>
       </section>
+
+      <sectoin class="  ">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <div class="resources__logo-zone">
+          <img src="images/logo/resources-arzamas.svg" alt="Упс, что-то пошло не так:(" class="resources__logo">
+          <img src="images/logo/resources-n1.svg" alt="Упс, что-то пошло не так:(" class="resources__logo">
+          <img src="images/logo/resources-strelka.svg" alt="Упс, что-то пошло не так:(" class="resources__logo">
+          <img src="images/logo/resources-polka.svg" alt="Упс, что-то пошло не так:(" class="resources__logo">
+        </div>
+
+      </sectoin>
+
     </main>
     <footer class="footer">
       <div class="footer__columns">
