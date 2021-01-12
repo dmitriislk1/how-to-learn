@@ -1,0 +1,8 @@
+.logo{
+  position: absolute;
+  margin:0;
+  padding:0;
+  background-image: url(../../images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
+}
